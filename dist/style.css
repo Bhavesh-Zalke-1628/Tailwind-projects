@@ -646,6 +646,42 @@ video {
   bottom: 5rem;
 }
 
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.top-52 {
+  top: 13rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.left-\[40\%\] {
+  left: 40%;
+}
+
+.left-\[45\%\] {
+  left: 45%;
+}
+
+.left-\[46\%\] {
+  left: 46%;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -762,6 +798,23 @@ video {
 
 .h-32 {
   height: 8rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .min-h-screen {
@@ -897,6 +950,38 @@ video {
   width: 9rem;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-0\.5 {
+  width: 0.125rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -919,6 +1004,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-10 {
@@ -947,6 +1036,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.self-center {
+  align-self: center;
 }
 
 .rounded {
@@ -1066,6 +1159,11 @@ video {
   background-color: rgb(61 111 135 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 252 232 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\/assets\/BG\.png\'\)\] {
   background-image: url('./assets/BG.png');
 }
@@ -1172,6 +1270,26 @@ video {
   padding-right: 0.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1248,6 +1366,10 @@ video {
   font-weight: 400;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -1303,6 +1425,11 @@ video {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
 }
 
 .hover\:cursor-pointer:hover {
